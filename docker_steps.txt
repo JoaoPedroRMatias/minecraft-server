@@ -1,0 +1,8 @@
+[DOCKER]
+Docker build: sudo docker build -t mineserver/latest
+
+Docker run: docker run -d -p 25565:25565
+
+[NGROK]
+
+Iniciar ngrok: ngrok tcp 25565
