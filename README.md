@@ -43,6 +43,5 @@ sudo ./ngrok tcp 25565
 <img src="./img/ngrok.jpeg">
 </div>
 
-<br>
 <p>O domínio que será usado para entrar no servidor está em "Forwarding", e é passado dentro do jogo como mostra no exemplo desta forma: 0.tcp.sa.ngrok.io:10552</p>
 
