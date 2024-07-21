@@ -1,6 +1,6 @@
 <h1>Minecraft Server</h1>
 
-Minecraft Server: versão 1.19.2 Fabric
+Minecraft Server: versão 1.21 Fabric
 
 Autor: https://github.com/JoaoPedroRMatias
 
@@ -14,7 +14,7 @@ Autor: https://github.com/JoaoPedroRMatias
 
 <p>No diretório /mods é possivel colocar os mods que quiser ao servidor (o nome por si só já diz tudo, porém, vale lembrar que todos os jogadores precisam ter o mesmo arquivo do mod em seus jogos pessoais para funcionar perfeitamente).</p>
 
-<p>Entrando na pasta é possivel ver dois arquivos "fabric-api-0.76.0+1.19.2.jar" e "architectury-6.5.69-fabric.jar", o Fabric API é uma API leve e modular que fornece ganchos comuns e medidas de intercompatibilidade utilizadas por mods usando a cadeia de ferramentas Fabric, e o Architectury é uma API intermediária destinada a facilitar o desenvolvimento de mods multiplataforma.</p>
+<p>Entrando na pasta é possivel ver dois arquivos "fabric-api-0.100.7+1.21.jar" e "architectury-13.0.4-fabric.jar", o Fabric API é uma API leve e modular que fornece ganchos comuns e medidas de intercompatibilidade utilizadas por mods usando a cadeia de ferramentas Fabric, e o Architectury é uma API intermediária destinada a facilitar o desenvolvimento de mods multiplataforma.</p>
 
 <br>
 <h1>Iniciando Docker</h1>
@@ -22,13 +22,13 @@ Autor: https://github.com/JoaoPedroRMatias
 <p>Criar imagem:</p>
 
 ```
-sudo docker build -t mineserver/latest .
+docker build -t minecraft-server .
 ```
 
 <p>Iniciar container:</p>
 
 ```
-sudo docker run -d -p 25565:25565 mineserver/latest
+docker run -d -p 25565:25565 --name minecraft-server minecraft-server
 ```
 <br>
 <h1>Ngrok</h1>
