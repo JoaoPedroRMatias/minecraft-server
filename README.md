@@ -30,18 +30,3 @@ docker build -t minecraft-server .
 ```
 docker run -d -p 25565:25565 --name minecraft-server minecraft-server
 ```
-<br>
-<h1>Ngrok</h1>
-<p>No caso de não possuir um IP publico para hospedar seu servidor, um boa opção é usar o Ngrok.</p>
-<p>Após fazer seu download, vá para pasta em que se encontra o arquivo shell do Ngrok ou chame ele no terminal. E inicie o servidor com o comando:</p>
-
-```
-sudo ./ngrok tcp 25565
-```
-
-<p>Como resultado teremos essas informações:</p>
-<img src="./img/ngrok.jpeg">
-</div>
-
-<p>O domínio que será usado para entrar no servidor está em "Forwarding", e é passado dentro do jogo como mostra no exemplo desta forma: 0.tcp.sa.ngrok.io:10552</p>
-
