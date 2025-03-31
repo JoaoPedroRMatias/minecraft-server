@@ -16,9 +16,7 @@ Autor: https://github.com/JoaoPedroRMatias
 
 <p>Entrando na pasta é possivel ver dois arquivos "fabric-api-0.100.7+1.21.jar" e "architectury-13.0.4-fabric.jar", o Fabric API é uma API leve e modular que fornece ganchos comuns e medidas de intercompatibilidade utilizadas por mods usando a cadeia de ferramentas Fabric, e o Architectury é uma API intermediária destinada a facilitar o desenvolvimento de mods multiplataforma.</p>
 
-<br>
-<h1>Iniciando Docker</h1>
-
+<h2>Iniciando Docker</h2>
 <p>Criar imagem:</p>
 
 ```
